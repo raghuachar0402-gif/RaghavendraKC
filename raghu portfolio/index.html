@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghavendra K C | Finance, HR Operations, and Banking Professional | Mandya, India</title>
+
+    <!-- FAVICON: Using the profile image for the browser tab icon -->
+    <link rel="icon" href="raghavendra.jpg" type="image/jpeg">
+
+    <!-- SEO & Social Media Optimization -->
+    <meta name="description" content="Raghavendra K C is a Commerce Graduate with proven experience in Finance, Banking Operations (Kotak Mahindra Bank), HR Assistance (Indian Oil), and Microfinance (BSS). View resume and contact details.">
+    <meta name="keywords" content="Raghavendra K C, Finance, HR, Banking Operations, Kotak Mahindra Bank, Indian Oil, BSS Microfinance, Commerce Graduate, Mandya, Karnataka, professional portfolio">
+    <meta name="author" content="Raghavendra K C">
+
+    <!-- Open Graph / Social Media Tags -->
+    <meta property="og:title" content="Raghavendra K C | Finance & HR Operations Portfolio">
+    <meta property="og:description" content="Commerce Graduate with experience in finance, banking, and HR operations. Seeking new professional opportunities.">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://reghavendra.netlify.app/">
+    <meta property="og:image" content="raghavendra.jpg"> <!-- Ensure this image is uploaded to your root folder -->
+
+    <!-- Google AdSense Optimization -->
+    <meta name="google-adsense-account" content="ca-pub-8878096861679129">
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Custom font family setting */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc; /* Light background for a clean look */
+        }
+        .section-heading {
+            border-left: 4px solid #10b981; /* Emerald 500 border for a clean accent */
+            padding-left: 1rem;
+        }
+        /* Custom card shadows for a professional lift effect */
+        .card {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        }
+        /* Style for the Backdrop when active */
+        .backdrop-active {
+            opacity: 0.5;
+            visibility: visible;
+        }
+    </style>
+    <!-- Google AdSense Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8878096861679129"
+    crossorigin="anonymous"></script>
+
+    <!-- JSON-LD Schema Markup for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Raghavendra K C",
+      "jobTitle": "Finance and HR Operations Professional",
+      "url": "https://reghavendra.netlify.app/",
+      "sameAs": [
+        "https://drive.google.com/file/d/1lVU-zlvCstigGSf9HtIUZ-TITHt0_VCi/view?usp=drivesdk"
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Mandya University",
+        "url": "https://mandyauniversity.karnataka.gov.in/en"
+      },
+      "worksFor": [
+        {"@type": "Organization", "name": "Kotak Mahindra Bank Ltd"},
+        {"@type": "Organization", "name": "Indian Oil Corporation Ltd"},
+        {"@type": "Organization", "name": "BSS Microfinance Ltd"}
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mandya",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
+</head>
+<body class="antialiased text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <!-- Top Bar: Logo and Toggle Button -->
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-extrabold text-gray-900 tracking-tight">Raghavendra K C</h1>
+                
+                <!-- Hamburger Menu Button (Mobile only) -->
+                <button id="menu-toggle" class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition duration-150" aria-label="Toggle navigation menu">
+                    <i data-lucide="menu" class="w-6 h-6 text-gray-800"></i>
+                </button>
+
+                <!-- Desktop Navigation (Hidden on Mobile) -->
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#about" class="text-gray-600 hover:text-emerald-600 transition duration-150">About</a>
+                    <a href="#experience" class="text-gray-600 hover:text-emerald-600 transition duration-150">Experience</a>
+                    <a href="#skills" class="text-gray-600 hover:text-emerald-600 transition duration-150">Skills</a>
+                    <a href="#education" class="text-gray-600 hover:text-emerald-600 transition duration-150">Education</a>
+                    <a href="#contact" class="text-gray-600 hover:text-emerald-600 transition duration-150">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- NEW MOBILE SLIDE-IN MENU STRUCTURE -->
+    
+    <!-- Backdrop Overlay (Starts hidden, gets opacity 50 when active) -->
+    <div id="backdrop" class="fixed inset-0 bg-black bg-opacity-0 transition-opacity duration-300 z-30 hidden md:hidden" aria-hidden="true"></div>
+
+    <!-- Mobile Navigation Menu (Slides from right - RHS to LHS) -->
+    <nav id="mobile-menu" class="fixed top-0 right-0 w-64 max-w-full h-full bg-white shadow-2xl z-40 transform translate-x-full transition-transform duration-300 md:hidden overflow-y-auto">
+        <div class="p-6">
+            <div class="flex justify-end mb-4">
+                <!-- Close Button inside menu -->
+                 <button id="menu-close" class="p-2 rounded-lg hover:bg-gray-100 transition duration-150" aria-label="Close navigation menu">
+                    <i data-lucide="x" class="w-6 h-6 text-gray-800"></i>
+                </button>
+            </div>
+            <div class="space-y-3">
+                <a href="#about" class="menu-link block text-gray-700 font-semibold text-lg hover:bg-emerald-50 hover:text-emerald-700 p-3 rounded-lg transition duration-150">About</a>
+                <a href="#experience" class="menu-link block text-gray-700 font-semibold text-lg hover:bg-emerald-50 hover:text-emerald-700 p-3 rounded-lg transition duration-150">Experience</a>
+                <a href="#skills" class="menu-link block text-gray-700 font-semibold text-lg hover:bg-emerald-50 hover:text-emerald-700 p-3 rounded-lg transition duration-150">Skills</a>
+                <a href="#education" class="menu-link block text-gray-700 font-semibold text-lg hover:bg-emerald-50 hover:text-emerald-700 p-3 rounded-lg transition duration-150">Education</a>
+                <a href="#contact" class="menu-link block text-gray-700 font-semibold text-lg hover:bg-emerald-50 hover:text-emerald-700 p-3 rounded-lg transition duration-150">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+
+        <!-- Hero Section - Optimized for mobile stacking and padding -->
+        <section id="about" class="mb-16 md:flex items-center space-x-12 bg-white p-6 sm:p-8 rounded-xl card"> <!-- Reduced mobile padding slightly to p-6 -->
+            <div class="flex-shrink-0 mb-6 md:mb-0 text-center"> <!-- Center image on mobile -->
+                <!-- Profile Picture with SEO-friendly alt text -->
+                <img src="raghavendra.jpg" alt="Professional portrait of Raghavendra K C, Finance and HR Operations professional" class="w-28 h-28 md:w-40 md:h-40 rounded-full object-cover border-4 border-emerald-300 mx-auto">
+            </div>
+            <div>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2"> <!-- Reduced h2 size for mobile readability -->
+                    Commerce Graduate | Finance & HR Operations
+                </h2>
+                <p class="text-base sm:text-lg text-gray-600 mb-6 max-w-2xl"> <!-- Reduced paragraph size slightly for mobile -->
+                    Motivated and detail-oriented professional with practical experience in **banking operations** (Kotak Mahindra Bank), **microfinance account management** (BSS), and **HR operations** (Indian Oil Corporation Ltd - Apprenticeship). I am focused on leveraging analytical skills to ensure compliance, drive efficiency, and contribute effectively to organizational growth.
+                </p>
+                <!-- Optimized Contact Links: Force stacking (flex-col) on mobile for a clean vertical flow -->
+                <div class="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mb-6">
+                    <a href="tel:+919880368916" class="flex items-center text-emerald-600 hover:text-emerald-700 font-medium transition duration-150">
+                        <i data-lucide="phone" class="w-5 h-5 mr-2"></i> +91 9880368916
+                    </a>
+                    <a href="mailto:raghuna0201y@gmail.com" class="flex items-center text-emerald-600 hover:text-emerald-700 font-medium transition duration-150">
+                        <i data-lucide="mail" class="w-5 h-5 mr-2"></i> raghuna0201y@gmail.com
+                    </a>
+                    <span class="flex items-center text-gray-500">
+                        <i data-lucide="map-pin" class="w-5 h-5 mr-2"></i> Mandya, Karnataka, India
+                    </span>
+                </div>
+                <!-- Download Resume Button: Ensures button is full width on mobile for easy tapping -->
+                <a href="https://drive.google.com/file/d/1lVU-zlvCstigGSf9HtIUZ-TITHt0_VCi/view?usp=drivesdk" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center bg-emerald-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-emerald-700 transition duration-300 transform hover:scale-105">
+                    <i data-lucide="download" class="w-5 h-5 mr-2"></i> Download Resume
+                </a>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 section-heading text-gray-900">Professional Experience</h2>
+            <div class="space-y-6">
+
+                <!-- Job 1: Kotak Mahindra Bank Ltd -->
+                <div class="bg-white p-6 rounded-xl card">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-xl font-semibold text-gray-900">Associate</h3>
+                        <span class="text-sm font-medium text-emerald-600 flex-shrink-0 ml-4">Aug 2025 – Present</span> <!-- flex-shrink-0 prevents date from wrapping prematurely -->
+                    </div>
+                    <p class="text-gray-500 mb-3"><a href="https://www.kotak.com/" target="_blank" class="text-emerald-600 hover:underline">KOTAK MAHINDRA BANK LTD</a></p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4">
+                        <li>Supported day-to-day **banking operations**, customer onboarding, and account servicing.</li>
+                        <li>Managed account documentation and ensured compliance with **RBI norms**.</li>
+                        <li>Resolved client queries, maintaining strong customer relationships and satisfaction.</li>
+                    </ul>
+                </div>
+
+                <!-- Job 2: INDIAN OIL CORPORATION LTD -->
+                <div class="bg-white p-6 rounded-xl card">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-xl font-semibold text-gray-900">HR Assistant (Apprenticeship)</h3>
+                        <span class="text-sm font-medium text-emerald-600 flex-shrink-0 ml-4">Jul 2024 – Jul 2025</span>
+                    </div>
+                    <p class="text-gray-500 mb-3"><a href="https://iocl.com/" target="_blank" class="text-emerald-600 hover:underline">INDIAN OIL CORPORATION LTD</a></p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4">
+                        <li>Assisted HR team in **employee management**, payroll processing, and attendance tracking.</li>
+                        <li>Supported recruitment, onboarding, and training activities.</li>
+                        <li>Maintained HR documentation and ensured record accuracy and compliance.</li>
+                    </ul>
+                </div>
+
+                <!-- Job 3: BSS MICROFINANCE LTD -->
+                <div class="bg-white p-6 rounded-xl card">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-xl font-semibold text-gray-900">Account Manager</h3>
+                        <span class="text-sm font-medium text-emerald-600 flex-shrink-0 ml-4">May 2023 – Oct 2023</span>
+                    </div>
+                    <p class="text-gray-500 mb-3"><a href="https://www.bssmfi.com/" target="_blank" class="text-emerald-600 hover:underline">BSS MICROFINANCE LTD</a></p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4">
+                        <li>Handled customer **loan accounts** and performed daily **financial reconciliations**.</li>
+                        <li>Processed client loan documentation and verified data accuracy.</li>
+                        <li>Provided customer support to improve retention and satisfaction.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 section-heading text-gray-900">Technical Skills</h2>
+            <div class="flex flex-wrap gap-3">
+                <span class="bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full font-medium text-sm transition duration-150 hover:bg-emerald-200">Tally ERP</span>
+                <span class="bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full font-medium text-sm transition duration-150 hover:bg-emerald-200">Basic SAP</span>
+                <span class="bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full font-medium text-sm transition duration-150 hover:bg-emerald-200">MS Office (Word, Excel)</span>
+                <span class="bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full font-medium text-sm transition duration-150 hover:bg-emerald-200">Computer Basics</span>
+                <span class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-medium text-sm transition duration-150 hover:bg-gray-300">RBI Norms Compliance</span>
+                <span class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-medium text-sm transition duration-150 hover:bg-gray-300">Financial Reconciliation</span>
+                <span class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-medium text-sm transition duration-150 hover:bg-gray-300">Customer Relationship Management (CRM)</span>
+                <span class="bg-gray-200 text-gray-700 px-4 py-2 rounded-full font-medium text-sm transition duration-150 hover:bg-gray-300">HR Documentation</span>
+            </div>
+
+            <h3 class="text-2xl font-semibold text-gray-900 mt-10 mb-4 section-heading">Languages</h3>
+            <div class="flex flex-wrap gap-3">
+                <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium text-sm">Kannada (Native)</span>
+                <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium text-sm">English (Proficient)</span>
+                <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium text-sm">Hindi</span>
+                <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium text-sm">Tamil</span>
+                <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium text-sm">Telugu</span>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 section-heading text-gray-900">Education</h2>
+            <div class="space-y-4">
+                <div class="bg-white p-6 rounded-xl card flex justify-between flex-wrap">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900">B.Com (Bachelor of Commerce)</h3>
+                        <p class="text-gray-500"><a href="https://mandyauniversity.karnataka.gov.in/en" target="_blank" class="text-emerald-600 hover:underline">Mandya University, Mandya</a></p>
+                    </div>
+                    <div class="text-right mt-2 sm:mt-0">
+                        <span class="block text-lg font-medium text-emerald-600 flex-shrink-0 ml-4">2022</span>
+                        <span class="block text-gray-600">CGPA: 6.83</span>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-xl card flex justify-between flex-wrap">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900">PUC (Pre-University Course)</h3>
+                        <p class="text-gray-500">Govt. PU College, Kodiyala, Mandya</p>
+                    </div>
+                    <div class="text-right mt-2 sm:mt-0">
+                        <span class="block text-lg font-medium text-emerald-600 flex-shrink-0 ml-4">2019</span>
+                        <span class="block text-gray-600">59.33%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section - Optimized for mobile button stacking -->
+        <section id="contact" class="bg-emerald-600 text-white p-8 md:p-12 rounded-xl text-center">
+            <h2 class="text-3xl font-bold mb-4">Let's Connect</h2>
+            <p class="text-lg mb-6">I am currently seeking opportunities to apply my diverse operational experience. Feel free to reach out for collaboration or inquiries.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6"> <!-- Ensures buttons stack vertically on small screens -->
+                <a href="mailto:raghuna0201y@gmail.com" class="w-full sm:w-auto bg-white text-emerald-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 flex items-center justify-center">
+                    <i data-lucide="send" class="w-5 h-5 mr-2"></i> Email Me
+                </a>
+                <a href="tel:+919880368916" class="w-full sm:w-auto bg-emerald-700 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-emerald-800 transition duration-300 flex items-center justify-center">
+                    <i data-lucide="phone-call" class="w-5 h-5 mr-2"></i> Call Me
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            &copy; 2023 Raghavendra K C. All rights reserved. 
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Mobile Menu Toggle Logic
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleButton = document.getElementById('menu-toggle');
+            const closeButton = document.getElementById('menu-close');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const backdrop = document.getElementById('backdrop');
+            const menuLinks = document.querySelectorAll('.menu-link');
+            
+            // Re-create icons on load to ensure the initial 'menu' icon renders correctly
+            lucide.createIcons(); 
+
+            // Function to open the sidebar
+            const openSidebar = () => {
+                mobileMenu.classList.remove('translate-x-full');
+                mobileMenu.classList.add('translate-x-0');
+                backdrop.classList.remove('hidden');
+                setTimeout(() => {
+                    backdrop.classList.add('bg-opacity-50');
+                }, 10); // Small delay to enable transition on opacity
+                document.body.style.overflow = 'hidden'; // Prevent background scrolling
+                
+                // Change icon to 'x' on the toggle button in the header
+                const icon = toggleButton.querySelector('i[data-lucide]');
+                icon.setAttribute('data-lucide', 'x');
+                lucide.createIcons();
+            };
+
+            // Function to close the sidebar
+            const closeSidebar = () => {
+                mobileMenu.classList.remove('translate-x-0');
+                mobileMenu.classList.add('translate-x-full');
+                backdrop.classList.remove('bg-opacity-50');
+                
+                // Hide backdrop after transition completes
+                setTimeout(() => {
+                    backdrop.classList.add('hidden');
+                }, 300); // Must match transition duration on the menu
+
+                document.body.style.overflow = ''; // Restore scrolling
+                
+                // Change icon back to 'menu' on the toggle button
+                const icon = toggleButton.querySelector('i[data-lucide]');
+                icon.setAttribute('data-lucide', 'menu');
+                lucide.createIcons();
+            };
+
+            // Toggle Handler (Hamburger icon)
+            if (toggleButton && mobileMenu) {
+                toggleButton.addEventListener('click', () => {
+                    // Check if the menu is currently hidden (has the full translation class)
+                    if (mobileMenu.classList.contains('translate-x-full')) {
+                        openSidebar();
+                    } else {
+                        closeSidebar();
+                    }
+                });
+            }
+
+            // Close Handlers:
+            // 1. X button inside menu
+            if (closeButton) {
+                closeButton.addEventListener('click', closeSidebar);
+            }
+
+            // 2. Backdrop click
+            if (backdrop) {
+                backdrop.addEventListener('click', closeSidebar);
+            }
+
+            // 3. Link click
+            menuLinks.forEach(link => {
+                link.addEventListener('click', closeSidebar);
+            });
+        });
+    </script>
+</body>
+</html>
